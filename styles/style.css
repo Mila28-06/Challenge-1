@@ -105,29 +105,7 @@ h1 small {
 .menu ul li a.active span {
 	font-weight: bold;
 }
-.twitter {
-	width:280px;
-	float:right;
-	margin:0;
-	padding:0;
-}
-.twitter p {
-	font:normal 10px Arial, Helvetica, sans-serif;
-	color:#9f9f9f;
-	padding:10px 0 0 20px;
-	margin:0;
-}
-.twitter img {
-	float:left;
-	margin:0;
-	padding:0;
-}
-.twitter a {
-	font:bold 11px Arial, Helvetica, sans-serif;
-	color:#fff;
-	text-decoration:none;
-	text-transform:uppercase;
-}
+
 .body_resize {
 	margin:0 auto;
 	padding:30px 0 0 0;
@@ -148,7 +126,8 @@ h1 small {
 	color:#9eaf06;
 }
 .body p {
-	font:normal 12px Arial, Helvetica, sans-serif;
+	font-family: 'Quicksand';
+	font-size: 13px;
 	color:#464646;
 	padding:5px;
 	margin:0;
@@ -440,21 +419,15 @@ p.response {
 	width: 900px;
 	height: 400px;
 }
-.left>img{
+.left img{
 	display: inline-block;
-	float: left;
-	clear: right;
+	float: none;
 }
 #demo{
 	margin: 5px;
 	width: 1000px;
-	height: 400px;
-
-
+	height: 500px;
 }
-#demo2{
-	width: 1000px;
+#demoeind{
 	height: 600px;
-	text-align: left;
-	
 }
