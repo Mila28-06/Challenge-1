@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Portfolio HCI | Challenge2</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><span>Challenges</span></a></li>
+          <li><a href="workshops.html"><span> Workshops </span></a></li>
+          <li><a href="guest.html"><span>Gastspreker</span></a></li>
+        </ul>
+      </div> 
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="left">
+        <h2>Challenge 2</h2>
+        <h3>Research</h3>
+        <p>Voor de research was het de bedoeling om naar leuke, interessante en/of bijzondere AR/VR projecten te kijken. Hieronder staan 3 projecten die mij aanspreken.</p>
+        <p><strong>Bike turning signal </strong> </p>
+        <p>Kristoffer Richardsson heeft een knipperend licht gecreëerd, die getriggerd wordt wanneer hij zijn hand uitsteekt. Voor dit prototype heeft hij gebruik gemaakt van een gyroscoop en accelerometrie, hiermee werd de beweging en positie van een bepaald punt in de fietsers arm gemeten. Verder heeft hij gebruik gemaakt van een Led-ring deck (voor het licht). Het prototype is vastgebonden om de pols aan de bovenzijde van de arm. 
+        Wat ik cool vind aan dit project, is dat door de beweging en positie van de arm dus wordt bepaald of het licht aan gaat of niet, wat voor de situatie als fietser erg handig is. Eigenlijk is het net zoals een autolicht maar dan zit het licht vast aan een arm, en wordt het getriggerd door het hand uitsteken. 
+        </p>
+        <p>Credits: Kristoffer Richardsson</p>
+        <p>Website: <a href="https://www.hackster.io/krichardsson/bike-turning-signal-75d988">https://www.hackster.io/krichardsson/bike-turning-signal-75d988</a></p>
+         <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/UhUcJEZj8TQ">
+        </iframe>
+
+        <p><strong>Pocket Distance Alarm</strong> </p>
+        <p>  
+        In de corona tijd is het natuurlijk de bedoeling dat iedereen afstand van elkaar houdt. Alleen is het niet zo eenvoudig om dit elke seconde in gedachte te houden, en vergeten mensen afstand van elkaar te houden. Om deze redenen heeft Makerming een zak afstand alarm gemaakt om dit op te lossen. Het alarm geeft een licht- en geluidswaarschuwing wanneer mensen te dichtbij komen. Het alarm maakt gebruik van een arduino, ledjes, buzzer en een ‘time of flight distance sensor’. 
+        Wat ik goed vind aan dit project is dat het mensen echt kan helpen om afstand te houden, wat natuurlijk de bedoeling is. En dus een bijdrage is aan het verminderen van coronabesmettingen. 
+        </p>
+         <p>Credits: Makerming</p>
+        <p>Website: <a href="https://www.hackster.io/Makerming/pocket-distance-alarm-keep-1m-away-from-me-seeeduino-xiao-628eae">https://www.hackster.io/Makerming/pocket-distance-alarm-keep-1m-away-from-me-seeeduino-xiao-628eae</a></p>
+
+        <p><strong>Flower dress</strong> </p>
+        <p>
+          Kitty Yeung heeft een bloemenjurk met knipperende lichtjes in de bloemen, die zich aanpassen op de hartslag van de drager. Het project wil ook aantonen dat fitness en gezondheidsproducten niet beperkt hoeven te worden tot polsbandjes. De sensoren kunnen ook gewoon ingebouwd worden in mooie jurken of andere kleding. Kitty Yeung heeft gebruik gemaakt van Arduino als microcontroller, harstslagmeter, led lichtjes en andere componenten om het compleet te maken. 
+          Wat ik leuk vind aan dit project is als eerst dat het er cool en mooi uitziet, vooral in het donker natuurlijk. De lichtjes geven een heel leuk effect aan de jurk. Maar wat ik vooral cool vind aan dit project is dat de lichtjes afgesteld zijn aan de hartslag. Dit kan om meerdere redenen handig zijn, en geeft natuurlijk nog een extra effect aan de jurk. 
+        </p>
+         <p>Credits: Kitty Yeung</p>
+        <p>Website: <a href="https://www.hackster.io/kitty-yeung/flowers-arduino-nano-crazycircuits-dfrobot-55be42">https://www.hackster.io/kitty-yeung/flowers-arduino-nano-crazycircuits-dfrobot-55be42</a></p>
+         <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/peWO93ngxiI">
+        </iframe>
+        <h3>Tinkering</h3> 
+        <div id="demo">   
+          <h4>Demo 1</h4>
+        <video width="200" controls>
+        <source src="images/IMG_8617.webm" type="video/webm"></video>
+        <img src="images/geluiddemo.png" width="200px">
+        <p>Als eerste heb ik een afstand alarm gemaakt. Hiermee kan je mensen buiten je persoonlijke ruimte houden. Wanneer iemand op een goede afstand is, maakt get alarm om de zoveel seconde een geluid. Wanneer de persoon dichterbij komt wordt het geluid hoger en sneller, en wanneer de persoon te dichtbij komt wordt het geluid nog een stuk hoger en gaat het nog sneller. Het zijn in totaal 3 ‘standen’. Ik heb gekozen voor 40+ cm, 40-20 en 20-. Eerst wilde ik het met anderhalve meter doen, net zoals het zak afstand alarm uit de research. Maar met deze afstanden deed de sensor het niet helemaal goed, dus heb ik het aangepast naar lagere waarden. Ik heb gebruik gemaakt van de arduino, Piezo speaker, en de ultrasonic sensor </p>
+        </div>
+        <div id="demo2">
+          <h4>Demo 2</h4>
+           <video width="400" controls>
+          <source src="images/IMG_8620.webm" type="video/webm"></video>
+          <img src="images/ledmatrixdemo.png" width="200px">
+        <p>Op vervolg van de demo heb ik hetzelfde idee als basis gehouden alleen heb ik hier het geluid veranderd in een vinkje of een kruis. Wanneer iemand in een afstand komt van 30 cm verandert het vinkje in een kruis. Ik heb gebruik gemaakt van een arduino, ultrasonic sensor en de ledmatrix om het vinkje en het kruis te weergeven. De ledmatrix zou dan bijvoorbeeld op de borst of om het voorhoofd gedragen kunnen worden zodat het duidelijk is voor de persoon die te dichtbij komt.</p>
+        </div>
+
+        <div id="demo2">
+          <h4>Demo 3</h4>
+          <video width="200" controls>
+            <source src="images/IMG_8636.webm" type="video/webm"></video>
+            <img src="images/cijfersdemo1.png" width="200px">
+            <img src="images/cijfersdemo2.png" width="200px">
+            <img src="images/cijfersdemo3.png" width="200px">
+            <img src="images/cijfersdemo4.png" width="200px">
+          <p>Op vervolg van de demo heb ik hetzelfde idee als basis gehouden alleen heb ik hier het geluid veranderd in een vinkje of een kruis. Wanneer iemand in een afstand komt van 30 cm verandert het vinkje in een kruis. Ik heb gebruik gemaakt van een arduino, ultrasonic sensor en de ledmatrix om het vinkje en het kruis te weergeven. De ledmatrix zou dan bijvoorbeeld op de borst of om het voorhoofd gedragen kunnen worden zodat het duidelijk is voor de persoon die te dichtbij komt.</p>
+        </div>
+        <div id="demoeind2">
+        <h3>Design and Build</h3>
+        <h4>Proces</h4>
+        <img src="images/IMG_3095.jpg" width="200px">
+        <img src="images/IMG_4568.jpg" width="200px">
+        <img src="images/IMG_6471.jpg" width="200px">
+        <img src="images/IMG_7872.jpg" width="200px">
+        <h4>Code</h4>
+        <img src="images/challengecode1.png" width="200px">
+        <img src="images/challengecode2.png" width="150px">
+       </div>
+
+        <h3>Showcase</h3>
+
+         <iframe width="420" height="315"
+        src="
+        ">
+        </iframe>
+        <h3>Reflect</h3>
+        <p>
+        </p>
+      </div>
+      <div class="right">
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">Domain Name</a>. All Rights Reserved</p>
+      <p class="rf">Design by <a target="_blank" href="http://www.hotwebsitetemplates.net/">HotWebsiteTemplates</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>
